@@ -20,7 +20,7 @@ import "./app.css";
 const { Header, Content, Footer } = Layout;
 const { SubMenu } = Menu;
 /**
- * test
+ * 
  */
 const APP_SHORT_NAME = "VMDC";
 const APP_LONG_NAME = "Visualisation Multisource Des Comptes RH";
