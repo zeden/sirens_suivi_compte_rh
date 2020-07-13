@@ -13,13 +13,12 @@
   },
   "dependencies": {
     "@ant-design/icons": "4.2.1",
-    "antd": "4.4.1",
+    "antd": "4.4.2",
     "casual-browserify": "1.5.19",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-router-dom": "5.2.0",
-    "react-scripts": "3.4.1",
-    "reqwest": "2.0.5"
+    "react-scripts": "3.4.1"
   },
   "browserslist": [
     ">0.2%",
