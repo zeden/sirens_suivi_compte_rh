@@ -20,7 +20,7 @@ export const FILTRES_RECHERCHE = [
   { value: "FILTER_5", name: "Hébergés" },
   { value: "FILTER_6", name: "Agents" }
 ];
-//
+////
 FILTRES_RECHERCHE.map(function(Item, index) {
   index++;
   Item.type = "RECHERCHE";
