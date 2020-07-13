@@ -6,7 +6,7 @@
     "eject": "react-scripts eject",
     "build": "react-scripts build"
   },
-  "name": "sirens_suivi_compte_rh ",
+  "name": "sirens-suivi-compte-rh ",
   "main": "index.js",
   "devDependencies": {
     "typescript": "^3.8.2"
