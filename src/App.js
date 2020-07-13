@@ -23,7 +23,7 @@ const { SubMenu } = Menu;
  *
  */
 const APP_SHORT_NAME = "VMDC";
-const APP_LONG_NAME = "Visualisation Multisource Des Comptes RH";
+const APP_LONG_NAME = "aaaVisualisation Multisource Des Comptes RH";
 
 function getPage(content) {
   //let { FILTER_INDEX } = useParams();
