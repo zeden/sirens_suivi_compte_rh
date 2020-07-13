@@ -373,7 +373,7 @@ export default class DashBoardDetailsView extends React.Component {
                 </Dropdown>*/}
                 <Tooltip
                   placement="topRight"
-                  title="Si aucune de sélection, toute la liste des agents de ce filtre sera exportée."
+                  title="Si aucune sélection, toute la liste des agents de ce filtre sera exportée."
                 >
                   <Badge
                     offset={[1, 4]}
