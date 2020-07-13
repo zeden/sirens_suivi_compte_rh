@@ -108,7 +108,7 @@ table tr.noWrap td {
 }
 /************* Tag *****************/
 .ant-tag {
-  /* font-size: 13px !important;*/
+  font-size: 13px !important;
   padding: 1px 7px 2px 7px !important;
   border-radius: 10px !important;
 }

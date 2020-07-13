@@ -13,7 +13,7 @@ import UsersView from "./views/UsersView";
 /**
  *
  */
-import "./index.css";
+import "./app.css";
 /**
  *
  */
@@ -42,7 +42,7 @@ export default class App extends React.Component {
                   <Menu.Item key="1" style={{ border: "none" }}>
                     <Link to="/">
                       <Space>
-                        <img src="/assets/b9d17ebc-2af1-4926-ba1b-c1376ddaa479.png" />
+                        <img src="/assets/images/b9d17ebc-2af1-4926-ba1b-c1376ddaa479.png" />
                         {APP_LONG_NAME}
                       </Space>
                     </Link>
