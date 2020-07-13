@@ -1,11 +1,11 @@
 import React from "react";
 
-import { Row, Tag, Col, Switch, Menu, Dropdown, Table, Input, Tooltip, Select, Empty, Spin, Badge, Space, Tabs, Button } from "antd";
+import { Row, Tag, Col, Table, Input, Tooltip, Select, Empty, Spin, Badge, Space, Tabs, Button } from "antd";
 
-import { DownloadOutlined, DownOutlined, InfoCircleOutlined, UserOutlined, FieldTimeOutlined, ReloadOutlined, QuestionCircleOutlined, LoadingOutlined } from "@ant-design/icons";
+import { DownloadOutlined, QuestionCircleOutlined, LoadingOutlined } from "@ant-design/icons";
 
 import { FILTRES_INDICATEURS, FILTRES_RECHERCHE } from "../DataSources";
-import { BrowserRouter as Router, useLocation, Route, Link, useParams } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 const { Search } = Input;
 const { Option } = Select;
 const { TabPane } = Tabs;
@@ -14,10 +14,6 @@ const { TabPane } = Tabs;
  *
  */
 
-const getUrlParamValue = param => {
-  const urlParams = new URLSearchParams(window.location.search);
-  return urlParams.get(param);
-};
 /**
  *
  */

@@ -1,6 +1,6 @@
 import React from "react";
 import { Tag } from "antd";
-import { BrowserRouter as Router, Switch, Route, Link, useRouteMatch, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import { FILTRES_INDICATEURS } from "../DataSources";
 
