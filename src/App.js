@@ -42,7 +42,7 @@ export default class App extends React.Component {
                   <Menu.Item key="1" style={{ border: "none" }}>
                     <Link to="/">
                       <Space>
-                        <img alt="" src="/assets/images/logo.png" />
+                        <img src="/assets/images/logo.png" />
                         {APP_LONG_NAME}
                       </Space>
                     </Link>
