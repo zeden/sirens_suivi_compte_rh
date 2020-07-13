@@ -6,7 +6,7 @@
     "eject": "react-scripts eject",
     "build": "react-scripts build"
   },
-  "name": "sirens-suivi-compte-rh ",
+  "name": "sirens-suivi-compte-rh",
   "main": "index.js",
   "dependencies": {
     "@ant-design/icons": "4.2.1",
