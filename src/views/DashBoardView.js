@@ -7,7 +7,7 @@ import { FILTRES_INDICATEURS } from "../DataSources";
 /**
  *
  */
-console.log(location.pathname);
+
 /**
  *
  */
