@@ -20,10 +20,10 @@ import "./app.css";
 const { Header, Content, Footer } = Layout;
 const { SubMenu } = Menu;
 /**
- *
+ * test
  */
 const APP_SHORT_NAME = "VMDC";
-const APP_LONG_NAME = "kkkkkkVisualisation Multisource Des Comptes RH";
+const APP_LONG_NAME = "Visualisation Multisource Des Comptes RH";
 
 function getPage(content) {
   return <Content id="content">{content}</Content>;
@@ -40,7 +40,7 @@ export default class App extends React.Component {
                   <Menu.Item key="1" style={{ border: "none" }}>
                     <Link to="/">
                       <Space>
-                        <img src="/assets/images/logo.png" />
+                        <img alt="" src="/logo.png" />
                         {APP_LONG_NAME}
                       </Space>
                     </Link>
