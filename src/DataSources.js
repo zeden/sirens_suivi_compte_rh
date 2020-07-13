@@ -1,5 +1,5 @@
 import casual from "casual-browserify";
-const TOTAL_AGENTS_RANDOM = 990;
+const TOTAL_AGENTS_RANDOM = 200;
 export const FILTRES_RECHERCHE = [
   { value: "FILTER_0", name: "Tous" },
   {

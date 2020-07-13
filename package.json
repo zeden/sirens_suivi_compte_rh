@@ -6,7 +6,7 @@
     "eject": "react-scripts eject",
     "build": "react-scripts build"
   },
-  "name": "sirens-suivi-rh",
+  "name": "sirens_suivi_compte_rh ",
   "main": "index.js",
   "devDependencies": {
     "typescript": "^3.8.2"
@@ -20,12 +20,7 @@
     "react-router-dom": "5.2.0",
     "react-scripts": "3.4.1"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
   "keywords": [],
   "description": ""
 }
