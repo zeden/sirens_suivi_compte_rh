@@ -176,44 +176,15 @@ export default class DashBoardDetailsView extends React.Component {
     const currentFiltre = urlParams.get("filtre");
     this.setState({ currentFiltre: currentFiltre });
     //
-    this.fetchData();
+    //   this.fetchData();
   }
   /**
    *
    */
-  fetchData() {
-    this.setState({
-      loading: true,
-      refresh: true
-    });
-    fetch("https://randomuser.me/api/?page=3&results=50")
-      .then(res => res.json())
-      .then(
-        result => {
-          // console.log("randomuser", result);
-
-          this.setState({
-            loading: false,
-            refresh: false,
-            dataSourceTest: result.results
-          });
-        },
-        // Remarque : il est important de traiter les erreurs ici
-        // au lieu d'utiliser un bloc catch(), pour ne pas passer à la trappe
-        // des exceptions provenant de réels bugs du composant.
-        error => {
-          log(error);
-          this.setState({
-            loading: false,
-            refresh: false
-          });
-        }
-      );
-  }
   /**
    *
    */
-  refresh = () => this.fetchData();
+  //refresh = () => this.fetchData();
   /**
    *
    */
