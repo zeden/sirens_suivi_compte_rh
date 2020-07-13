@@ -26,10 +26,8 @@ const APP_SHORT_NAME = "VMDC";
 const APP_LONG_NAME = "kkkkkkVisualisation Multisource Des Comptes RH";
 
 function getPage(content) {
-  //let { FILTER_INDEX } = useParams();
   return <Content id="content">{content}</Content>;
 }
-//const { SubMenu } = Menu;
 export default class App extends React.Component {
   render() {
     return (
