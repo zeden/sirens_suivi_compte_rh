@@ -8,9 +8,6 @@
   },
   "name": "sirens-suivi-compte-rh ",
   "main": "index.js",
-  "devDependencies": {
-    "typescript": "^3.8.2"
-  },
   "dependencies": {
     "@ant-design/icons": "4.2.1",
     "antd": "4.4.2",
