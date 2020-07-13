@@ -1,7 +1,7 @@
 import React from "react";
 import casual from "casual-browserify";
-import { Row, Tag, Col, Popconfirm, Table, Switch, Input, Tooltip, Select, Empty, Spin, Badge, Space, Tabs, Button } from "antd";
-import { DeleteOutlined, UserAddOutlined, ReloadOutlined, QuestionCircleOutlined, LoadingOutlined } from "@ant-design/icons";
+import { Popconfirm, Table, Switch, Tooltip, Button } from "antd";
+import { DeleteOutlined, UserAddOutlined } from "@ant-design/icons";
 const TOTAL_AGENTS_RANDOM = 100;
 const Users = [];
 for (let i = 1; i <= TOTAL_AGENTS_RANDOM; i++) {
