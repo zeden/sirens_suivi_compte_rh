@@ -1,22 +1,8 @@
 import React from "react";
 
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useRouteMatch,
-  useParams
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link, useRouteMatch, useParams } from "react-router-dom";
 import { Layout, Menu, Row, Col, Space, Dropdown, Divider } from "antd";
-import {
-  SettingOutlined,
-  UsergroupDeleteOutlined,
-  LogoutOutlined,
-  DownOutlined,
-  UserOutlined,
-  CaretDownOutlined
-} from "@ant-design/icons";
+import { SettingOutlined, UsergroupDeleteOutlined, LogoutOutlined, DownOutlined, UserOutlined, CaretDownOutlined } from "@ant-design/icons";
 import "antd/dist/antd.css";
 /**
  *
@@ -52,11 +38,7 @@ export default class App extends React.Component {
           <Header id="header">
             <Row>
               <Col span={16}>
-                <Menu
-                  triggerSubMenuAction="click"
-                  mode="horizontal"
-                  style={{ border: "none" }}
-                >
+                <Menu triggerSubMenuAction="click" mode="horizontal" style={{ border: "none" }}>
                   <Menu.Item key="1" style={{ border: "none" }}>
                     <Link to="/">
                       <Space>
@@ -114,19 +96,14 @@ export default class App extends React.Component {
           </Header>
 
           <Switch>
-            <Route path="/dashboard/details/">
-              {getPage(<DashBoardDetailsView />)}
-            </Route>
+            <Route path="/dashboard/details/">{getPage(<DashBoardDetailsView />)}</Route>
             <Route path="/users">{getPage(<UsersView />)}</Route>
             <Route path="/">{getPage(<DashBoardView />)}</Route>
           </Switch>
           <Footer id="footer">
             <Divider orientation="left">
               <Space>
-                <img
-                  width="50"
-                  src="https://api-web.educagri.fr/apis/logo/images/agrosup_court_medium.png"
-                />
+                <img width="50" src="https://api-web.educagri.fr/apis/logo/images/agrosup_court_medium.png" />
                 <b>{APP_SHORT_NAME}</b>
                 par Sirens
               </Space>
